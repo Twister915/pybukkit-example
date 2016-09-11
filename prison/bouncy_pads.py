@@ -35,7 +35,7 @@ class Ticker(Action0):
     def go(self):
         self.player.setVelocity(Vector(0, 6, 0))
         self.player.playSound(self.player.getLocation(), Sound.BAT_TAKEOFF, 20, 1)
-        self.player.sendMessage(color('&7&o&lWoosh...'))
+        self.player.sendMessage(color('&7Woosh...'))
 
     def check(self):
         return self.player.isOnline() and self.player.getLocation().distanceSquared(self.start_location) < 2
