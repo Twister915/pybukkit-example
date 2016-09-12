@@ -1,1 +1,1 @@
-import hi_joey
+import hi_joey, compass
