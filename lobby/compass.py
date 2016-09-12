@@ -12,7 +12,7 @@ def on_interact(event):
     if 'CLICK' not in event.getAction().name():
         return
 
-    if not event.getPlayer().getHeldItemSlot() == 0:
+    if not event.getPlayer().getInventory().getHeldItemSlot() == 0:
         return
 
     event.getPlayer().performCommand("server")
