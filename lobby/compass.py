@@ -1,4 +1,4 @@
-from org.bukkit.event.player import PlayerJoinEvent
+from org.bukkit.event.player import PlayerJoinEvent, PlayerInteractEvent
 from tech.rayline.core.util import ItemShorthand
 from org.bukkit import Material
 from util import config
