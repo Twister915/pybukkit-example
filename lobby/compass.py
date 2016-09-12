@@ -5,7 +5,7 @@ from util import config
 
 @event_handler(PlayerJoinEvent)
 def on_player_join(event):
-    event.getPlayer().getInventory().setItem(0, ItemShorthand.withMaterial(Material.COMPASS).withName(color("&7&lServer Selector &7(Right Click)")).get())
+    event.getPlayer().getInventory().setItem(0, ItemShorthand.withMaterial(Material.COMPASS).withName(color("&6&lServer Selector &7(Right Click)")).get())
 
 @event_handler(PlayerInteractEvent)
 def on_interact(event):
