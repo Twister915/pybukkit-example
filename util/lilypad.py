@@ -3,7 +3,7 @@
 # from org.arkhamnetwork.Arkkit.patches.networkevents import NetworkEvents
 
 def get_lilypad_name():
-    return connect.getSettings().getUsername()
+    return get_connect().getSettings().getUsername()
 
 def get_connect():
     return pyb.Bukkit.getPluginManager().getPlugin("LilyPad-Connect").getConnect()
